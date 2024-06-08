@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
     "htmlcov",
+    "pytest",
     "Pytest",
     "simplejson",
     "unittest",

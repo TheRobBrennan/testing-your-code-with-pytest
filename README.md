@@ -71,3 +71,20 @@ Ran 2 tests in 0.000s
 FAILED (failures=1)
 
 ```
+
+### Let's look at writing these tests using pytest
+
+Let's look at [./pytest_sample/test_pytest_sample.py](./pytest_sample/test_pytest_sample.py).
+
+This file looks at using pytest.
+
+```sh
+# Navigate to our directory
+(.venv) % cd pytest_sample
+
+# Run pytest
+(.venv) % pytest
+
+# Run pytest in quiet mode
+(.venv) % pytest -q
+```
