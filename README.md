@@ -35,3 +35,39 @@ Python 3.11.1
 Please see [CHEAT-SHEET-PYTHON.md](./CHEAT-SHEET-PYTHON.md) for more examples of getting started with Python development on your machine.
 
 ## Testing Your Code With pytest (Overview)
+
+## Using pytest
+
+```sh
+# Install pytest to your virtual environment
+(.venv) % pip install pytest
+
+```
+
+### Let's look at the built-in unittest library
+
+Let's look at [./unit_sample/test_unit_sample.py](./unit_sample/test_unit_sample.py).
+
+This file looks at using the built-in `unittest` library in Python.
+
+```sh
+# Navigate to our directory
+(.venv) % cd unit_sample
+
+# Run unittest
+(.venv) % python3 -m unittest
+F.
+======================================================================
+FAIL: test_always_fail (test_unit_sample.SampleTestCase.test_always_fail)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/rob/repos/real-python/testing-your-code-with-pytest/unit_sample/test_unit_sample.py", line 8, in test_always_fail
+    self.assertTrue(False)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=1)
+
+```
