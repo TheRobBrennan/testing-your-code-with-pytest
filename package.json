@@ -1,0 +1,18 @@
+{
+  "name": "testing-your-code-with-pytest",
+  "version": "0.0.0",
+  "description": "This project explores my thoughts and ideas while reviewing the free ~25-minute [Testing Your Code With Pytest](https://realpython.com/courses/testing-your-code-with-pytest/) course.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/testing-your-code-with-pytest.git"
+  },
+  "author": "Rob Brennan <rob@sploosh.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/testing-your-code-with-pytest/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/testing-your-code-with-pytest#readme"
+}
