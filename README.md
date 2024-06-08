@@ -2,6 +2,10 @@
 
 This project explores my thoughts and ideas while reviewing the free ~25-minute [Testing Your Code With Pytest](https://realpython.com/courses/testing-your-code-with-pytest/) course.
 
+TL;DR
+-----
+Example source code, slides, and lessons 3-5 are locked behind a paywall. Fuck these guys. 👎🏻👎🏻
+
 ## Getting started
 
 First things first. Let's download the slides and the sample code for this free course.
@@ -114,3 +118,9 @@ Additional markers include:
 - `skip` - Skips a test
 - `skipif` - Skips a test if the accompanying expression is True
 - `xfail` - Mark that a test is expected to fail (and does not cause the suite to fail when the expected test fails)
+
+## Providing fixtures
+
+Welp. Lessons 3-5 are locked behind the paywall. Fuck these guys.
+
+![Lesson 3 - Permission Denied](./assets/lesson-3-permission-denied.png)
