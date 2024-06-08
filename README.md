@@ -2,6 +2,10 @@
 
 This project explores my thoughts and ideas while reviewing the free ~25-minute [Testing Your Code With Pytest](https://realpython.com/courses/testing-your-code-with-pytest/) course.
 
+TL;DR
+-----
+Example source code, slides, and lessons 3-5 are locked behind a paywall. Fuck these guys. 👎🏻👎🏻
+
 ## Getting started
 
 First things first. Let's download the slides and the sample code for this free course.
