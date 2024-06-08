@@ -88,3 +88,5 @@ This file looks at using pytest.
 # Run pytest in quiet mode
 (.venv) % pytest -q
 ```
+
+In addition to looking for functions, pytest also looks for classes that have `Test` as the prefix name - like our file at [./pytest_sample/test_klass.py](./pytest_sample/test_klass.py) - that also has methods inside of them with a `test_` prefix.
