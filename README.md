@@ -114,3 +114,9 @@ Additional markers include:
 - `skip` - Skips a test
 - `skipif` - Skips a test if the accompanying expression is True
 - `xfail` - Mark that a test is expected to fail (and does not cause the suite to fail when the expected test fails)
+
+## Providing fixtures
+
+Welp. Lessons 3-5 are locked behind the paywall. Fuck these guys.
+
+![Lesson 3 - Permission Denied](./assets/lesson-3-permission-denied.png)
