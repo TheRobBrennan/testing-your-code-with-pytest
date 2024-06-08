@@ -90,3 +90,27 @@ This file looks at using pytest.
 ```
 
 In addition to looking for functions, pytest also looks for classes that have `Test` as the prefix name - like our file at [./pytest_sample/test_klass.py](./pytest_sample/test_klass.py) - that also has methods inside of them with a `test_` prefix.
+
+### We can also use marks to identify tests to execute
+
+Let's look at [./marks/test_marks.py](./marks/test_marks.py). We need to create a [./pytest.ini](./pytest.ini) file to register our desired `mark` names.
+
+```sh
+# Navigate to our directory
+(.venv) % cd marks
+
+# View all default and custom markers
+(.venv) % pytest --markers
+
+# Run our smoke test(s) - identified by @pytest.mark.smoke
+(.venv) % pytest -m smoke
+
+# Run our regression test(s) - identified by @pytest.mark.regression
+(.venv) % pytest -m regression
+```
+
+Additional markers include:
+
+- `skip` - Skips a test
+- `skipif` - Skips a test if the accompanying expression is True
+- `xfail` - Mark that a test is expected to fail (and does not cause the suite to fail when the expected test fails)
