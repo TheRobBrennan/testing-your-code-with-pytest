@@ -14,4 +14,24 @@ NOT SO FAST.
 
 Well, that's a bit of a downer. I wasn't expecting a paywall to prevent me from downloading course material. My suggestion? Either make it a paid course upfront or remove this silliness. This is dumb. 👎🏻
 
+Make sure that you have created a virtual environment for development:
+
+```sh
+# Verify that you have Python installed on your machine
+% python3 --version
+Python 3.11.1
+
+# Create a new virtual environment for the project
+% python3 -m venv .venv
+
+# Select your new environment by using the Python: Select Interpreter command in VS Code
+#   - Enter the path: ./.venv/bin/python
+
+# Activate your virtual environment
+% source .venv/bin/activate
+(.venv) %
+```
+
+Please see [CHEAT-SHEET-PYTHON.md](./CHEAT-SHEET-PYTHON.md) for more examples of getting started with Python development on your machine.
+
 ## Testing Your Code With pytest (Overview)
